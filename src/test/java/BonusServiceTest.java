@@ -37,7 +37,7 @@ public class BonusServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shouldCalculateForUnderRegisteredAndUnderLimit() {
+    void shouldCalculateForUnRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
@@ -53,7 +53,7 @@ public class BonusServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void shouldCalculateForUnderRegisteredAndOverLimit() {
+    void shouldCalculateForUnRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
